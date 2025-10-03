@@ -130,6 +130,17 @@ body {
     font-weight: 600;
 }
 
+.vote-count .loading {
+    color: #999;
+    font-style: italic;
+}
+
+.vote-btn:disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+}
+
 .message-box {
     background: white;
     border-radius: 15px;
